@@ -24,3 +24,4 @@ Jenkins will check (test) for the website running in **dev-docker** environment.
 For this we need to add two things:
 * First ```if sudo curl IP-Of-Dev-Env``` is true we can proceed with merging.
 * Add a post build trigger in **Jenkins** for building **#Job2**
+![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/DEMO/Job3.gif)
