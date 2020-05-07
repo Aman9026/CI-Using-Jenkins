@@ -12,3 +12,7 @@ Here we will use *Docker, Git-hooks and Jenkins* to showcase a sample DevOps pip
 
 ## Sample Job-1
 If Developer push to **dev** branch then Jenkins will fetch from dev and deploy on **dev-docker** environment.
+
+## Sample Job-2
+If Developer push to **master** branch then Jenkins will fetch from master and deploy on **master-docker** environment.
+*PS: both dev-docker and master-docker environment are on different docker containers.*
