@@ -1,8 +1,6 @@
 # CI-Using-Jenkins
 Integrating the repository with different environments of software production to synchronize the workflow.
 ![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/data/images/1_jFpGk7qNLh9kbw_o-WOW1g.gif)
-![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/data/images/063018_1012_WhatisJenki1.jpg)
-
 
 ---
 
