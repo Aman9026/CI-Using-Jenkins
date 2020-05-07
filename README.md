@@ -2,7 +2,6 @@
 Integrating the repository with different environments of software production to synchronize the workflow.
 ![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/data/images/063018_1012_WhatisJenki1.jpg)
 
-***You are always welcome to add more or improve any resource in this repository by following [these](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/CONTRIBUTING.md) instructions.***
 
 ---
 
@@ -25,3 +24,5 @@ For this we need to add two things:
 * First ```if sudo curl IP-Of-Dev-Env``` is true we can proceed with merging.
 * Add a post build trigger in **Jenkins** for building **#Job2**
 ![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/DEMO/Job3.gif)
+
+***You are always welcome to add more or improve any resource in this repository by following [these](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/CONTRIBUTING.md) instructions.***
