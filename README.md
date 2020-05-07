@@ -18,6 +18,7 @@ If Developer push to **dev** branch then Jenkins will fetch from dev and deploy 
 
 ## Sample Job-2
 If Developer push to **master** branch then Jenkins will fetch from master and deploy on **master-docker** environment.
+
 *PS: both **dev-docker** and **master-docker** environment are on different docker containers.*
 ![](https://github.com/Aman9026/CI-Using-Jenkins/blob/master/DEMO/Job2.gif)
 
