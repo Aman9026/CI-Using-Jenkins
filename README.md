@@ -15,4 +15,10 @@ If Developer push to **dev** branch then Jenkins will fetch from dev and deploy 
 
 ## Sample Job-2
 If Developer push to **master** branch then Jenkins will fetch from master and deploy on **master-docker** environment.
-*PS: both dev-docker and master-docker environment are on different docker containers.*
+*PS: both **dev-docker** and **master-docker** environment are on different docker containers.*
+
+## Sample Job-3
+Jenkins will check (test) for the website running in **dev-docker** environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger **#job 2**
+For this we need to add two things:
+1. First ```if sudo curl IP-Of-Dev-Env``` if it is true we can proceed with merging.
+2. Add a post build trigger in **Jenkins** for building **#Job2**
